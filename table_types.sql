@@ -65,5 +65,8 @@ SHOW TABLES LIKE 'transient-table';
 
 
 -- External Tables --
+-- 1. Integration can be defined as an configuration object that allows snowflake to connect with external services like cloud storage, messaging platforms or identity providers.
+-- 2. Acts as a bridge between snowflake and third party systems with credentials, roles and access policies.
+
 
 -- Permanent table has both time travel and fail safe feature, transient has only time travel feature
